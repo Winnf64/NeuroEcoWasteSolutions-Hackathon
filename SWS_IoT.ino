@@ -5,14 +5,7 @@
 #include <HTTPClient.h>
 #include "ThingsBoard.h"
 #include "CTBot.h"
-
-//Credenciales para la conexión a la API de la visualización web
-#define TOKEN "XCDjG1xsWwDL4EJ5C3Ob"
-#define THINGSBOARD_SERVER "demo.thingsboard.io"
-
-//Credenciales de mi internet de casa
-const char* ssid = "LIB-3532968";
-const char* password = "fyer4dakYNe8";
+#include "config.h"
 
 //Contadores declaradas variables locales
 int vidrio = 0;
@@ -33,8 +26,6 @@ ThingsBoard tb(client);
 Servo myserv;
 
 CTBot miBot;
-
-const String token = "5819638343:AAGEysU29uLDqNXTSH_LRtOfha7Zz0viJW4"; 
 
 bool band = false;
 
