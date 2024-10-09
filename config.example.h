@@ -12,6 +12,6 @@ const char* ssid = "TU SSID";
 const char* password = "TU_CONTRASEÑA";
 
 // Token del bot de Telegram
-const String botToken = "EL_TOKEN_DEL_BOT_DE_TELEGRAM";
+const String token = "EL_TOKEN_DEL_BOT_DE_TELEGRAM";
 
 #endif
